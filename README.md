@@ -59,7 +59,7 @@ PythonProject3/
 - `README.md` — Project documentation.
 - `requirements.txt` — Python dependencies.
 
-- Reproducibility Notes
+## Reproducibility Notes
 
 Preserve the saved data arrays, labels, split information, random seeds, and model configurations.
 
@@ -73,7 +73,7 @@ Keep the environment dependencies in requirements.txt consistent with the code.
 
 Record the final repository URL and Git commit hash in the submitted report.
 
-Running the Experiments
+## Running the Experiments
 
 Clone or download the repository.
 
