@@ -58,3 +58,33 @@ PythonProject3/
 - `Result/` — Numerical results and experiment outputs.
 - `README.md` — Project documentation.
 - `requirements.txt` — Python dependencies.
+
+- Reproducibility Notes
+
+Preserve the saved data arrays, labels, split information, random seeds, and model configurations.
+
+Maintain the same training, validation, and test partition across all experiments.
+
+Generate masked test images using the specified centered zero mask. Do not train models on masked images.
+
+Use the notebooks as the primary source of experimental logic. Exported tables and figures are supplementary artifacts.
+
+Keep the environment dependencies in requirements.txt consistent with the code.
+
+Record the final repository URL and Git commit hash in the submitted report.
+
+Running the Experiments
+
+Clone or download the repository.
+
+Install the dependencies listed in requirements.txt.
+
+Open the project in PyCharm or Jupyter Notebook.
+
+Ensure the saved dataset and split files are available in the expected locations.
+
+Run Code/Split.ipynb only if the split needs to be generated according to the assignment instructions. Otherwise, reuse the saved split.
+
+Run Code/Q1.ipynb, Code/Q2.ipynb, and Code/Q3.ipynb in the required order.
+
+Review the generated results in the Figures/ and Models/ directories.
